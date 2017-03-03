@@ -7,6 +7,7 @@ before_install:
   - ./bin/getconfig.sh
 script:
   # - ./bin/test-proj.sh
+  # docker-build -t *name* .
 after_success:
   - ./bin/push.sh
 
