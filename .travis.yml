@@ -8,5 +8,3 @@ script:
   - ./bin/test-proj.sh
 after_success:
   - ./bin/push.sh
-
-# comment comment
